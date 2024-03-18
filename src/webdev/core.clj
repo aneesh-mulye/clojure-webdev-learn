@@ -22,7 +22,7 @@
 
 (defn -main [port]
   (jetty/run-jetty
-    greet
+    app
     {:port (Integer. port)}))
 
 (defn -dev-main [port]
